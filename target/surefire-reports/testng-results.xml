@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="22479" started-at="2022-04-18T07:42:40Z" finished-at="2022-04-18T07:43:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@737996a0]" name="feature" class="com.cucumberFramework.testRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="SecurePay Test" duration-ms="22479" started-at="2022-04-18T07:42:40Z" finished-at="2022-04-18T07:43:03Z">
+      <class name="com.cucumberFramework.testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@737996a0]" name="setUpClass" is-config="true" duration-ms="492" started-at="2022-04-18T17:42:40Z" finished-at="2022-04-18T17:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@737996a0]" name="feature" duration-ms="21805" started-at="2022-04-18T17:42:41Z" description="Runs cucmber Features" data-provider="features" finished-at="2022-04-18T17:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[As a user I should be able to Search SecurePay website in Google and navigate to Contact us tab and fill the details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@737996a0]" name="testDownClass" is-config="true" duration-ms="32" started-at="2022-04-18T17:43:03Z" finished-at="2022-04-18T17:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- com.cucumberFramework.testRunner.TestRunner -->
+    </test> <!-- SecurePay Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
